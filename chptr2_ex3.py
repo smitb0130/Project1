@@ -1,0 +1,5 @@
+print("*****This is Excercise 3 for chapter 2*****")
+name,char=input("Enter your name and a character").split(",")
+print(f"Your name is {name} and it's length is {len(name)}")
+print(f"{char} occur {name.lower().count(char.lower())} times.")
+print("*****DONE*****!!")
